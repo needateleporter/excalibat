@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Excalibat" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Excalibat" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Excalibat" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DPLATFORM_WIN32" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_mixer" />
+			<Add library="SDL_net" />
+		</Linker>
+		<Unit filename="src\_au_mvoc.h" />
+		<Unit filename="src\_engine.h" />
+		<Unit filename="src\_rt_acto.h" />
+		<Unit filename="src\_rt_buil.h" />
+		<Unit filename="src\_rt_com.h" />
+		<Unit filename="src\_rt_dman.h" />
+		<Unit filename="src\_rt_door.h" />
+		<Unit filename="src\_rt_draw.h" />
+		<Unit filename="src\_rt_floo.h" />
+		<Unit filename="src\_rt_game.h" />
+		<Unit filename="src\_rt_in.h" />
+		<Unit filename="src\_rt_main.h" />
+		<Unit filename="src\_rt_map.h" />
+		<Unit filename="src\_rt_menu.h" />
+		<Unit filename="src\_rt_msg.h" />
+		<Unit filename="src\_rt_net.h" />
+		<Unit filename="src\_rt_play.h" />
+		<Unit filename="src\_rt_rand.h" />
+		<Unit filename="src\_rt_scal.h" />
+		<Unit filename="src\_rt_soun.h" />
+		<Unit filename="src\_rt_stat.h" />
+		<Unit filename="src\_rt_str.h" />
+		<Unit filename="src\_rt_ted.h" />
+		<Unit filename="src\_rt_util.h" />
+		<Unit filename="src\_rt_vid.h" />
+		<Unit filename="src\_w_wad.h" />
+		<Unit filename="src\_z_zone.h" />
+		<Unit filename="src\au_dma.h" />
+		<Unit filename="src\au_dpmi.h" />
+		<Unit filename="src\au_dsl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_dsl.h" />
+		<Unit filename="src\au_fxman.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_fxman.h" />
+		<Unit filename="src\au_irupt.h" />
+		<Unit filename="src\au_llist.h" />
+		<Unit filename="src\au_llman.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_llman.h" />
+		<Unit filename="src\au_music.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_music.h" />
+		<Unit filename="src\au_mvmix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_mvoc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_mvoc.h" />
+		<Unit filename="src\au_mvrvb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_ndpmi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_pform.h" />
+		<Unit filename="src\au_pitch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_pitch.h" />
+		<Unit filename="src\au_stdrd.h" />
+		<Unit filename="src\au_usrhk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\au_usrhk.h" />
+		<Unit filename="src\au_util.h" />
+		<Unit filename="src\byteordr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\byteordr.h" />
+		<Unit filename="src\cin_actr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\cin_actr.h" />
+		<Unit filename="src\cin_def.h" />
+		<Unit filename="src\cin_efct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\cin_efct.h" />
+		<Unit filename="src\cin_evnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\cin_evnt.h" />
+		<Unit filename="src\cin_glob.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\cin_glob.h" />
+		<Unit filename="src\cin_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\cin_main.h" />
+		<Unit filename="src\cin_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\cin_util.h" />
+		<Unit filename="src\develop.h" />
+		<Unit filename="src\dosutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\engine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\engine.h" />
+		<Unit filename="src\f_scale.h" />
+		<Unit filename="src\gmove.h" />
+		<Unit filename="src\isr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\isr.h" />
+		<Unit filename="src\keyb.h" />
+		<Unit filename="src\lumpy.h" />
+		<Unit filename="src\modexlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\modexlib.h" />
+		<Unit filename="src\myprint.h" />
+		<Unit filename="src\profile.h" />
+		<Unit filename="src\rottnet.h" />
+		<Unit filename="src\rt_actor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_actor.h" />
+		<Unit filename="src\rt_battl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_battl.h" />
+		<Unit filename="src\rt_build.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_build.h" />
+		<Unit filename="src\rt_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_cfg.h" />
+		<Unit filename="src\rt_com.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_com.h" />
+		<Unit filename="src\rt_crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_crc.h" />
+		<Unit filename="src\rt_debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_debug.h" />
+		<Unit filename="src\rt_def.h" />
+		<Unit filename="src\rt_dmand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_dmand.h" />
+		<Unit filename="src\rt_door.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_door.h" />
+		<Unit filename="src\rt_dr_a.h" />
+		<Unit filename="src\rt_draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_draw.h" />
+		<Unit filename="src\rt_fc_a.h" />
+		<Unit filename="src\rt_floor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_floor.h" />
+		<Unit filename="src\rt_game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_game.h" />
+		<Unit filename="src\rt_in.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_in.h" />
+		<Unit filename="src\rt_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_main.h" />
+		<Unit filename="src\rt_map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_map.h" />
+		<Unit filename="src\rt_menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_menu.h" />
+		<Unit filename="src\rt_msg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_msg.h" />
+		<Unit filename="src\rt_net.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_net.h" />
+		<Unit filename="src\rt_playr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_playr.h" />
+		<Unit filename="src\rt_rand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_rand.h" />
+		<Unit filename="src\rt_sc_a.h" />
+		<Unit filename="src\rt_scale.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_scale.h" />
+		<Unit filename="src\rt_sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_sound.h" />
+		<Unit filename="src\rt_sqrt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_sqrt.h" />
+		<Unit filename="src\rt_stat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_stat.h" />
+		<Unit filename="src\rt_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_str.h" />
+		<Unit filename="src\rt_table.h" />
+		<Unit filename="src\rt_ted.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_ted.h" />
+		<Unit filename="src\rt_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_util.h" />
+		<Unit filename="src\rt_vh_a.h" />
+		<Unit filename="src\rt_vid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_vid.h" />
+		<Unit filename="src\rt_view.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\rt_view.h" />
+		<Unit filename="src\scriplib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\scriplib.h" />
+		<Unit filename="src\snd_reg.h" />
+		<Unit filename="src\sprites.h" />
+		<Unit filename="src\states.h" />
+		<Unit filename="src\task_man.h" />
+		<Unit filename="src\version.h" />
+		<Unit filename="src\w_wad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\w_wad.h" />
+		<Unit filename="src\watcom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\watcom.h" />
+		<Unit filename="src\z_zone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\z_zone.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
